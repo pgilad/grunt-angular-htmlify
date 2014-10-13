@@ -1,4 +1,4 @@
-# grunt-angular-htmlify
+# [grunt](https://github.com/gruntjs/grunt)-angular-htmlify
 
 > Change your ng-attributes to data-ng-attributes for HTML5 validation using [angular-html5](https://github.com/pgilad/angular-html5)
 
