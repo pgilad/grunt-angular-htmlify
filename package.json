@@ -2,7 +2,7 @@
     "name": "grunt-angular-htmlify",
     "version": "0.1.0",
     "description": "Change your ng-attributes to data-ng-attributes for HTML5 validation",
-    "repository": "pgilad/gulp-angular-htmlify",
+    "repository": "pgilad/grunt-angular-htmlify",
     "author": {
         "name": "Gilad Peleg",
         "email": "giladp007@gmail.com"
