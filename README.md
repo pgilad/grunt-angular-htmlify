@@ -41,4 +41,4 @@ See the `angular-html5` [options](https://github.com/pgilad/angular-html5#api)
 
 ## License
 
-MIT © [Gilad Peleg](https://github.com/pgilad)
+MIT ©[Gilad Peleg](http://giladpeleg.com)

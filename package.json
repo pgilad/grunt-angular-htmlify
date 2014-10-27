@@ -10,7 +10,6 @@
     "url": "http://giladpeleg.com"
   },
   "files": [
-    "LICENSE.md",
     "tasks"
   ],
   "engines": {
