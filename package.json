@@ -3,23 +3,22 @@
   "version": "0.2.0",
   "description": "Change your ng-attributes to data-ng-attributes for HTML5 validation",
   "repository": "pgilad/grunt-angular-htmlify",
+  "license": "MIT",
   "author": {
     "name": "Gilad Peleg",
-    "email": "giladp007@gmail.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "homepage": "https://github.com/pgilad/grunt-angular-htmlify",
-  "bugs": "https://github.com/pgilad/grunt-angular-htmlify/issues",
-  "license": "MIT",
-  "scripts": {
-    "test": "grunt"
+    "email": "giladp007@gmail.com",
+    "url": "http://giladpeleg.com"
   },
   "files": [
     "LICENSE.md",
     "tasks"
   ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
   "keywords": [
     "gruntplugin",
     "grunt",
@@ -28,10 +27,11 @@
     "validator",
     "html5",
     "data-ng",
-    "ng"
+    "ng",
+    "valid"
   ],
   "dependencies": {
-    "angular-html5": "^0.3.0"
+    "angular-html5": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
