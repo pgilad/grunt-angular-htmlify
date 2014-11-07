@@ -3,12 +3,17 @@ module.exports = function (grunt) {
     grunt.initConfig({
         'angularHtmlify': {
             compile: {
-                options: {
-                    sourceMap: true
-                },
                 files: {
                     'test/tmp/angular-basic.html': 'test/fixtures/angular-basic.html'
                 }
+            },
+            many: {
+                files: [{
+                    expand: true, // Enable dynamic expansion.
+                    cwd: 'test/fixtures/', // Src matches are relative to this path.
+                    src: ['**/*.html'], // Actual pattern(s) to match.
+                    dest: 'tmp/' // Destination path prefix.
+                }]
             }
         },
         nodeunit: {
