@@ -30,7 +30,7 @@
     "valid"
   ],
   "dependencies": {
-    "angular-html5": "^1.0.0",
+    "angular-html5": "^1.2.0",
     "chalk": "^0.5.1"
   },
   "devDependencies": {
